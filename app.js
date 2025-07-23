@@ -71,7 +71,7 @@ const sessionOption={
 };
 
 app.get("/",(req,res)=>{
-    res.redirect(`/listings/${id}`);
+    res.redirect(`/listings`);
 });
 
 
